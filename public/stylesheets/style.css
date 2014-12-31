@@ -1,8 +1,45 @@
+/*   Colors
+Blue: #0396A6;
+lightblue: #04BFAD;
+bluegreen: #04D99D;
+green: #04D976;
+
+
+*/
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #F2F2F2;
 }
 
 a {
   color: #00B7FF;
+}
+
+.nav-mods {
+	background-color: #04D99D;
+}
+
+.nav-link {
+	background-color: #04D99D;
+}
+
+.header-text {
+	margin-top: 70px;
+	text-align: center;
+	border: solid black 2px;
+}
+
+.slicky-class{
+
+}
+
+.medium-image {
+	/*height: 300px;*/
+}
+
+.panel {
+	border-color: #0396A6;
+	border-width: 3px;
+	background-color: #CDCDCD;
 }

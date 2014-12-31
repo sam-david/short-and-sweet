@@ -1,8 +1,31 @@
 doctype html
 html
-  head
-    title= Short & Sweet
-    link(rel='stylesheet', href='/stylesheets/foundation.css')
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		title= Short & Sweet
+		link(rel='stylesheet', href='/stylesheets/foundation.css')
+		link(rel='stylesheet', href='/stylesheets/slick.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(src='/javascripts/jquery.js')
+		script(src='/javascripts/slick.min.js')
+		script(src='/javascripts/foundation.min.js')
+		script(src='/javascripts/script.js')
+	body
+		div.fixed
+			nav(class='top-bar nav-mods', data-topbar, role="navigation")
+				ul.title-area
+					li.name
+						h1
+							a(href="#") Short & Sweet
+					li.toggle-topbar.menu-icon
+						a(href="#")
+							span menu
+				section.top-bar-section
+					ul.right
+						li.nav-link
+							a(href="#") About
+						li.nav-link
+							a(href="#") Contact
+		div.row
+			div.large-12.large-centered.columns.header-text
+				h1 Short and Sweet BIATCH
+		block content
